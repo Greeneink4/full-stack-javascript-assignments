@@ -7,6 +7,7 @@ Test('object literal is a person', t => {
   t.is(Assignment.person.age, 42);
 });
 
+
 Test('string literal', t => {
   t.is(typeof(Assignment.song), 'string');
   t.is(Assignment.song, 'Twinkle, Twinkle, little star');
