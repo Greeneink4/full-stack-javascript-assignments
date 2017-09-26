@@ -8,7 +8,7 @@ class Mammal {
     }
 }
 
-class Dog extends Mammal {
+export class Dog extends Mammal {
     constructor(name) {
         super(name);
     }

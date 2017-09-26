@@ -19,7 +19,7 @@ class Person {
     set age(value) {
         if (value < 0) {
             this[_age] = 0;
-        }  else if (Value >= 120) {
+        }  else if (Value <= 120) {
             this[_age] = 120;
         }  else {
             this[_age] = value;
