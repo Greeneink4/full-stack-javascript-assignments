@@ -1,7 +1,7 @@
 // Code goes here...
 export class Vehicle {
     constructor(engineType, numDoors, make) {
-        this.avaengineType = engineType,
+        this.engineType = engineType,
         this.numberOfDoors = numDoors,
         this.make = make
     }
